@@ -6,7 +6,7 @@
 //TODO En el fichero index.js (fichero de librería):
 // - Declarar las funciones de la calculadora por separado (suma, resta, producto, división)
 
-const suma = (operacion,op1 = 1,op2 = 0) => operacion.toLowerCase() == 'sum' ? resultado = op1 + op2 : resultado = 'Introduce una operación válida' ;
+const suma = (operacion,op1 = 1,op2 = 0, op3 = 0) => operacion.toLowerCase() == 'sum' ? resultado = op1 + op2 + op3 : resultado = 'Introduce una operación válida' ;
 const resta = (operacion,op1 =1,op2 = 0) => operacion.toLowerCase() == 'subs' ? resultado = op1 - op2 : resultado = 'Introduce una operación válida' ;
 const multiplicacion = (operacion,op1 =1,op2 = 0) => operacion.toLowerCase() == 'mult' ? resultado = op1 * op2 : resultado = 'Introduce una operación válida' ;
 const division = (operacion,op1 =1,op2 = 0) => operacion.toLowerCase() == 'div' ? resultado = op1 / op2 : resultado = 'Introduce una operación válida' ;
