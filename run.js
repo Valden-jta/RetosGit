@@ -25,10 +25,12 @@ let numeros = [1,20,10,48,36,87,91,73,102,35];
 
 let op1 = numeros[Math.floor(Math.random()*10)];
 let op2 = numeros[Math.floor(Math.random()*10)];
+let op3 = numeros[Math.floor(Math.random()*10)];
 console.log('op1 = ' + op1);
 console.log('op2 = ' + op2);
+console.log('op3 = ' + op3);
 
-// console.log('Suma = ' + myLib.suma('sum', op1, op2));
+console.log('Suma = ' + myLib.suma('sum', op1, op2, op3));
 console.log('Resta = ' + myLib.resta('subs', op1, op2));
 console.log('Multiplicación = ' + myLib.multiplicacion('mult', op1, op2));
 console.log('División = ' + myLib.division('div', op1, op2));
