@@ -1,4 +1,7 @@
 # RetosGit
 Contiene los ejercicios de git
 
-Adicion de rama1 y rama2
+Adicion de rama1
+
+- index.js : eliminación función suma (línea comentada)
+- run.js : eliminación función suma (línea comentada)
